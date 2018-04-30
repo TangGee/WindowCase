@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <CheckBox
+          android:id="@+id/S_FULLSCREEN"
+          android:text="S_FULLSCREEN"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/S_HIDE_NAVIGATION"
+            android:text="S_HIDE_NAVIGATION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/S_IMMERSIVE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S_IMMERSIVE" />
+        <CheckBox
+            android:id="@+id/S_IMMERSIVE_STICKY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S_IMMERSIVE_STICKY" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/S_L_HIDE_NAVIGATION"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S_L_HIDE_NAVIGATION" />
+        <CheckBox
+            android:id="@+id/S_L_FULLSCREEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S_L_FULLSCREEN" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/F_BAR_BG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_BAR_BG" />
+        <CheckBox
+            android:id="@+id/F_TRANSLUCENT_STATUS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_TRANSLUCENT_STATUS" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/F_FULLSCREEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_FULLSCREEN" />
+        <CheckBox
+            android:id="@+id/F_TRANSLUCENT_NAV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_TRANSLUCENT_NAV" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/F_L_IN_SCREEN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_L_IN_SCREEN" />
+        <CheckBox
+            android:id="@+id/F_L_INSET_DECOR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F_L_INSET_DECOR" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="runSystemui" />
+
+        <Button
+            android:id="@+id/runWindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="runWindow" />
+        <Button
+            android:id="@+id/newActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="newActivity"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
